@@ -15,11 +15,11 @@
 
 ## Guide when "committing and pushing" changes into this repository
 ### After you have finished coding and wanted to upload your changes into this repository, you can do these steps:
-### 1. 
-### 2. 
-### 3. 
-### 4. 
-### 5. 
-### 6. 
-### 7. 
+### 1. Go to the commit window on the bottom-left corner of the Android Studios
+### 2. Add a commit message (just put whatever you have done in this project) (can be as menial as adding text or smth)
+### 3. Tick the checkbox on the top left corner beside the word "Changes"
+### 4. Press commit if you want to still edit
+### 5. Press "Commit and Push" if you want to upload your changes in the repository 
+### 6. Message the gc that you have done it so I could check if we can view the changes that you have made
+### 7. Nice, oks na (sana)
 ####################################################################################################
