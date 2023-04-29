@@ -5,7 +5,7 @@
 - Goodluck sa atin lmao
 
 ############################# SOLITUDE: A CALM-INDUCING MEDITATION APP #############################
-| Guide in Editing this application:                                                               |
+### Guide in Editing this application:                                                               |
 |  1. First is make sure that your git is initialized in the right directory (folder)              |
 |         You can do this by typing CD "C:/Your/Chosen/Directory/Here"                             |
 |  2. Then do: git init                                                                            |
