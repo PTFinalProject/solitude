@@ -35,7 +35,7 @@ ________________________________________________________________________________
 ### 6. After removing all of the accounts in there. Click the + button and click the "Log in with token"
 ### 7. Go to your github account in your browser.
 ### 8. Press your profile picture on the top-right icon
-### 9. Click on settings in thje dropdown menu
+### 9. Click on settings in the dropdown menu
 ### 10. Scroll down until you see the "Developer Settings" on the left side
 ### 11. Click the personal access tokens, then click "Tokens (classic)"
 ### 12. Click generate new token
@@ -55,3 +55,4 @@ ________________________________________________________________________________
 
 __________________________________________________________________________________________________________________________________________________
 Bruce was here
+Nichole :>>
