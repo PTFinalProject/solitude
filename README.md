@@ -3,7 +3,7 @@
 - Chat muna kayo sa gc bago kayo magcommit kasi baka magoverlap at magkaroon ng undesired changes.
 - Sana matapos natin toh AHAHAHAHAH
 - Goodluck sa atin lmao
-
+__________________________________________________________________________________________________________________________________________________
 ## Guide in Editing this application:
 ### 1. First is make sure that your git is initialized in the right directory (folder). You can do this by typing CD "C:/Your/Chosen/Directory/Here"
 ### 2. Then do: git init
@@ -13,6 +13,7 @@
 ### 6. There you can edit the layout of the window. After that, you can open the MainActivity.java to edit the backend things like when going to the next window using a button
 ### 7. Just code now
 
+__________________________________________________________________________________________________________________________________________________
 ## Guide when "committing and pushing" changes into this repository
 ### After you have finished coding and wanted to upload your changes into this repository, you can do these steps:
 ### 1. Go to the commit window on the bottom-left corner of the Android Studios
@@ -23,7 +24,7 @@
 ### 6. Message the gc that you have done it so I could check if we can view the changes that you have made
 ### 7. Nice, oks na (sana)
 
-
+__________________________________________________________________________________________________________________________________________________
 ## Guide if you get the "Push Failed remote: permission to PTFinalPorject/solitude.git" denied to 'your username' "
 ### If you get the error of not being able to push changes into the git repository, follow these steps:
 ### 1. Go to the file menu on the top-left corner
@@ -51,3 +52,5 @@
 ### 23. Then try to push it now.
 ### 24. If you still can't send the email of the github account that you used.
 ### 25. Oks na yan kapag gumana na.
+
+__________________________________________________________________________________________________________________________________________________
