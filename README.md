@@ -1,4 +1,4 @@
-# solitude
+# tranquility
 
 - Chat muna kayo sa gc bago kayo magcommit kasi baka magoverlap at magkaroon ng undesired changes.
 - Sana matapos natin toh AHAHAHAHAH
