@@ -54,5 +54,20 @@ ________________________________________________________________________________
 ### 25. Oks na yan kapag gumana na.
 
 __________________________________________________________________________________________________________________________________________________
-Bruce was here
-baguhin ko raw ung readme
+## Guide on how to make the background an image
+### 1. Go to the code part of the xml layout file
+### 2. Add this line of code: android:background="@drawable/imageFile"
+
+__________________________________________________________________________________________________________________________________________________
+## Guide on how to make a button go next activity/layout/page
+### 1. make a button variable by doing this in the java file.
+#### 1.1. final Button variableName = (Button) findViewById(R.id.idOfTheButton);
+### 2. Add the following line of code:
+#### button.setOnClickListener(new View.OnClickListener() {
+#### @Override
+#### public void onClick(View view) {
+#### Intent varName = new Intent(nameOfActivityOfJavaFile.this, nameOfJavaFileOfNextPage.class);
+####                startActivity(varName);
+####            }
+####        });
+### 3. If you need a reference for this code, check the hotlines_page.xml and hotlinePage.java
