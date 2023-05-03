@@ -13,6 +13,9 @@
         android:theme="@style/Theme.PlatTechFinalProject"
         tools:targetApi="31">
         <activity
+            android:name=".journalEntry"
+            android:exported="false" />
+        <activity
             android:name=".stretching1"
             android:exported="false" />
         <activity
@@ -32,8 +35,8 @@
         </activity>
         <activity
             android:name=".hotlinePage"
-            android:label="Hotline Page"
-            android:exported="true">
+            android:exported="true"
+            android:label="Hotline Page">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
