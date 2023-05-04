@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
         android:fontFamily="@font/helvetica_neue_lt_std_75_bold"
-        android:text="Do you need someone to talk to? Here are the hotlines for Mental Health Crisis"
+        android:text="@string/hotlines_page_title"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
@@ -51,7 +51,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/helvetica_neue_lt_std_75_bold"
-                    android:text="Luzon-wide landline toll-free"
+                    android:text="@string/landline_title"
                     android:textAlignment="center"
                     android:textColor="#FFFFFF"
                     android:textSize="24sp"
@@ -67,7 +67,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/helvetica_neue_lt_std_55_roman"
-                    android:text="1553"
+                    android:text="@string/landline_number"
                     android:textAlignment="center"
                     android:textAllCaps="false"
                     android:textColor="#FFFFFF"
@@ -79,12 +79,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <Button
-                    android:id="@+id/button2"
+                <Space
                     android:layout_width="wrap_content"
-                    android:layout_height="20dp"
-                    android:text="Button"
-                    android:visibility="invisible" />
+                    android:layout_height="20dp" />
             </TableRow>
 
             <TableRow
@@ -96,7 +93,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/helvetica_neue_lt_std_75_bold"
-                    android:text="Globe / TM"
+                    android:text="@string/globe_tm_title"
                     android:textAlignment="center"
                     android:textColor="#FFFFFF"
                     android:textSize="24sp"
@@ -112,7 +109,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/helvetica_neue_lt_std_55_roman"
-                    android:text="0966-351-4518"
+                    android:text="@string/globe_tm_number_1"
                     android:textAlignment="center"
                     android:textColor="#FFFFFF"
                     android:textSize="28sp" />
@@ -127,7 +124,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/helvetica_neue_lt_std_55_roman"
-                    android:text="0917-899-8727"
+                    android:text="@string/globe_tm_number_2"
                     android:textAlignment="center"
                     android:textColor="#FFFFFF"
                     android:textSize="28sp" />
@@ -138,12 +135,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <Button
-                    android:id="@+id/button3"
+                <Space
                     android:layout_width="wrap_content"
-                    android:layout_height="20dp"
-                    android:text="Button"
-                    android:visibility="invisible" />
+                    android:layout_height="20dp" />
             </TableRow>
 
             <TableRow
@@ -155,7 +149,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/helvetica_neue_lt_std_75_bold"
-                    android:text="Smart / Sun / TNT Subscribers"
+                    android:text="@string/smart_sun_tnt_title"
                     android:textAlignment="center"
                     android:textColor="#FFFFFF"
                     android:textSize="24sp" />
@@ -170,7 +164,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/helvetica_neue_lt_std_55_roman"
-                    android:text="0908-639-2672"
+                    android:text="@string/smart_sun_tnt_number_1"
                     android:textAlignment="center"
                     android:textColor="#FFFFFF"
                     android:textSize="28sp" />
@@ -185,7 +179,7 @@
                     android:id="@+id/button4"
                     android:layout_width="wrap_content"
                     android:layout_height="80dp"
-                    android:text="Button"
+                    android:text="@string/placeholder"
                     android:visibility="invisible" />
             </TableRow>
 
@@ -197,11 +191,11 @@
                     android:id="@+id/nextBtnHotline"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
-                    android:backgroundTint="#B3FFFFFF"
+                    android:backgroundTint="@color/button_color"
                     android:fontFamily="@font/helvetica_neue_lt_std_75_bold"
-                    android:text="Continue"
-                    android:textColor="#FF52b788"
-                    android:textSize="30dp" />
+                    android:text="@string/next_button_text"
+                    android:textColor="@color/button_text_color"
+                    android:textSize="30sp" />
             </TableRow>
 
         </TableLayout>

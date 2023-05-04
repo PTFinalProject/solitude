@@ -2,4 +2,13 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="button_color">#B3FFFFFF</color>
+    <color name="text_in_button">#FF52b788</color>
+    <color name="text">#FFFFFF</color>
+    <color name="text_color_hint">#559554</color>
+    <color name="text_box_text_color">#072C08</color>
+    <color name="button_background_color">#B3FFFFFF</color>
+    <color name="button_text_color">#293829</color>
+    <color name="skip_button_color">#8DB99F</color>
+    <color name="skip_button_text_color">#000000</color>
 </resources>
