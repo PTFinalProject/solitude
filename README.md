@@ -1,5 +1,4 @@
 # tranquility
-
 - Chat muna kayo sa gc bago kayo magcommit kasi baka magoverlap at magkaroon ng undesired changes.
 - Sana matapos natin toh AHAHAHAHAH
 - Goodluck sa atin lmao
@@ -71,3 +70,5 @@ ________________________________________________________________________________
 ####            }
 ####        });
 ### 3. If you need a reference for this code, check the hotlines_page.xml and hotlinePage.java
+_______________________________________________________________________________________________________________________________________________________
+ANSHUN
