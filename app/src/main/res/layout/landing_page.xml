@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tranquilitybg">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="136dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/tranquility_landing_icon" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="333dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="511dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="177dp"
+        android:fontFamily="@font/helvetica_neue_lt_std_55_roman"
+        android:text="Embrace calmness and let it guide you towards a balanced life"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="136dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="597dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginBottom="76dp"
+        android:alpha="0.50"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/helvetica_neue_lt_std_75_bold"
+        android:text="START"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#52b788"
+        android:textSize="26dp"
+        app:iconTint="#52B788"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="#000000" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

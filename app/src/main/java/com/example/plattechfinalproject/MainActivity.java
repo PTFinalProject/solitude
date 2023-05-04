@@ -12,16 +12,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        final Button button = (Button) findViewById(R.id.goToHotlines);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent actChange = new Intent(MainActivity.this, hotlinePage.class);
-
-                startActivity(actChange);
-            }
-        });
+        setContentView(R.layout.landing_page);
     }
 }
