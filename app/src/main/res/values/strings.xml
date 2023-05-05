@@ -1,4 +1,17 @@
 <resources>
     <string name="app_name">PlatTechFinalProject</string>
     <string name="background_image">Background Image</string>
+    <string name="hotlines_page_title">Do you need someone to talk to? Here are the hotlines for Mental Health Crisis</string>
+    <string name="landline_title">Luzon-wide landline toll-free</string>
+    <string name="landline_number">1553</string>
+    <string name="placeholder">Button</string>
+    <string name="globe_tm_title">Globe / TM</string>
+    <string name="globe_tm_number_1">0966-351-4518</string>
+    <string name="globe_tm_number_2">0917-899-8727</string>
+    <string name="smart_sun_tnt_title">Smart / Sun / TNT Subscribers</string>
+    <string name="smart_sun_tnt_number_1">0908-639-2672</string>
+    <string name="next_button_text">Continue</string>
+    <string name="skip_button_text">Skip this part</string>
+    <string name="journal_entry_title">I\'m so sorry that you feel that way. Would you like to share your thoughts?</string>
+    <string name="journal_text_entry_hint">Press here to type and vent all your troubles away. Don\'t worry, we won\'t share any of this to just anyone.</string>
 </resources>
