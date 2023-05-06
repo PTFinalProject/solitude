@@ -49,6 +49,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".LandingPage" />
+
+        <activity android:name=".MotivationalPage" />
+
+        <activity android:name=".Stretching2" />
+
     </application>
 
 </manifest>
