@@ -5,12 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".end"
-    android:background="@drawable/tranquilitybg">
+    android:background="@drawable/bg3">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="242dp"
         android:layout_height="84dp"
+        android:fontFamily="@font/helvetica_neue_lt_std_55_roman"
+        android:gravity="center_horizontal|center_vertical"
         android:text="Thank you!"
         android:textColor="#FFFFFF"
         android:textSize="48sp"
@@ -20,16 +22,23 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.176" />
+        app:layout_constraintVertical_bias="0.166" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="133dp"
-        android:layout_height="90dp"
-        android:text="Back to start"
+        android:id="@+id/btnEnd"
+        android:layout_width="146dp"
+        android:layout_height="76dp"
+        android:alpha="0.50"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/helvetica_neue_lt_std_55_roman"
+        android:text="Back to Start"
+        android:textColor="#52B788"
+        android:textStyle="bold"
+        app:iconTint="#52B788"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.759" />
+        app:layout_constraintVertical_bias="0.868"
+        app:rippleColor="#000000" />
 </androidx.constraintlayout.widget.ConstraintLayout>
