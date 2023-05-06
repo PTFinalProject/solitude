@@ -13,6 +13,9 @@
         android:theme="@style/Theme.PlatTechFinalProject"
         tools:targetApi="31">
         <activity
+            android:name=".breathing_exercise_calming"
+            android:exported="false" />
+        <activity
             android:name=".ReadyPage"
             android:exported="false" />
         <activity
