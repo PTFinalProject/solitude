@@ -12,6 +12,6 @@
     <string name="smart_sun_tnt_number_1">0908-639-2672</string>
     <string name="next_button_text">Continue</string>
     <string name="skip_button_text">Skip this part</string>
-    <string name="journal_entry_title">I\'m so sorry that you feel that way. Would you like to share your thoughts?</string>
+    <string name="journal_entry_title">It\'s okay to feel that way. Would you like to share your thoughts?</string>
     <string name="journal_text_entry_hint">Press here to type and vent all your troubles away. Don\'t worry, we won\'t share any of this to just anyone.</string>
 </resources>
