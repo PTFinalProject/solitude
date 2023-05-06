@@ -26,13 +26,14 @@
 
     <Button
         android:id="@+id/btnEnd"
-        android:layout_width="146dp"
-        android:layout_height="76dp"
+        android:layout_width="200dp"
+        android:layout_height="82dp"
         android:alpha="0.50"
         android:backgroundTint="#FFFFFF"
         android:fontFamily="@font/helvetica_neue_lt_std_55_roman"
         android:text="Back to Start"
         android:textColor="#52B788"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:iconTint="#52B788"
         app:layout_constraintBottom_toBottomOf="parent"
