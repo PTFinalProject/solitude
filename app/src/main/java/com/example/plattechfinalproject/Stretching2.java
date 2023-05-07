@@ -1,25 +1,24 @@
 package com.example.plattechfinalproject;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Intent;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
 
-public class stretching1 extends AppCompatActivity {
+public class Stretching2 extends AppCompatActivity {
 
     private Button btnContinue;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_stretching1);
+        setContentView(R.layout.activity_stretching2);
 
         // Initializing the textView
         TextView textView = findViewById(R.id.timerTextView);
@@ -43,14 +42,5 @@ public class stretching1 extends AppCompatActivity {
             }
         }.start();
 
-        // Set the onClickListener for btnContinue
-        btnContinue.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Start the next activity
-                Intent intent = new Intent(stretching1.this, Stretching2.class);
-                startActivity(intent);
-            }
-        });
     }
 }
