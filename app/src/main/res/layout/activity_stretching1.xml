@@ -2,20 +2,92 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnStreching1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg1"
+    android:visibility="visible"
     tools:context=".stretching1">
 
     <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
         android:layout_width="300dp"
         android:layout_height="300dp"
+        android:background="@drawable/rounded_corner_translucent_green_background"
         android:src="@drawable/child_pose"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.118" />
+        app:layout_constraintVertical_bias="0.262" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="336dp"
+        android:layout_height="135dp"
+        android:background="@drawable/rounded_corner_translucent_green_background"
+        android:fontFamily="@font/helvetica_neue_lt_std_55_roman"
+        android:gravity="center_horizontal|center_vertical"
+        android:padding="5dp"
+        android:text="Kneel on the floor. Bring your feet together and open your knees to create a V shape. Sit back, keeping your butt on or reaching toward your heels, and walk your hands in front of you so that your chest lowers to the ground. Breathe deeply through your diaphragm."
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.796" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="392dp"
+        android:layout_height="51dp"
+        android:fontFamily="@font/helvetica_neue_lt_std_75_bold"
+        android:gravity="center"
+        android:text="Child's Pose Stretching"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="119dp"
+        android:layout_height="52dp"
+        android:backgroundTint="@color/button_background_color"
+        android:fontFamily="@font/helvetica_neue_lt_std_75_bold"
+        android:text="Continue"
+        android:textColor="@color/button_text_color"
+        android:textSize="16sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.945" />
+
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="138dp"
+        android:layout_height="67dp"
+        android:background="@drawable/text_field_shape"
+        android:fontFamily="@font/helvetica_neue_lt_std_75_bold"
+        android:gravity="center_horizontal|center_vertical"
+        android:padding="5dp"
+        android:text="TIMER"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.596" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
