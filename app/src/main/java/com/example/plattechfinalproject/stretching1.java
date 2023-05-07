@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.os.CountDownTimer;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import java.text.DecimalFormat;
@@ -18,6 +20,7 @@ public class stretching1 extends AppCompatActivity {
 
         // Initializing thetextView
         TextView textView = findViewById (R.id.timerTextView);
+        Button contButton = findViewById(R.id.button);
 
         new CountDownTimer(31000, 1000) {
             public void onTick(long millisUntilFinished) {
@@ -30,6 +33,7 @@ public class stretching1 extends AppCompatActivity {
             // When the task is over it will print 00:00:00 there
             public void onFinish() {
                 textView.setText("00:00");
+                contButton.setVisibility(View.VISIBLE);
             }
         }.start();
 
