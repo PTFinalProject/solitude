@@ -58,7 +58,7 @@ ________________________________________________________________________________
 ### 2. Add this line of code: android:background="@drawable/imageFile"
 
 __________________________________________________________________________________________________________________________________________________
-## Guide on how to make a button go next activity/layout/page
+## Guide on how to make a button go next activity or layout or page
 ### 1. make a button variable by doing this in the java file.
 #### 1.1. final Button variableName = (Button) findViewById(R.id.idOfTheButton);
 ### 2. Add the following line of code:

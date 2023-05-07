@@ -26,13 +26,8 @@
             android:exported="false" />
         <activity
             android:name=".stretching1"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true" />
+        <!--        ____________________________________________________________________________________________________       -->
         <activity
             android:name=".memes"
             android:exported="false" />
@@ -41,24 +36,18 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true"/>
         <activity
             android:name=".hotlinePage"
-            android:exported="true"
-            android:label="Hotline Page">
+            android:exported="true"/>
+        <activity android:name=".LandingPage"
+        android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LandingPage" />
         <activity android:name=".MotivationalPage" />
         <activity android:name=".Stretching2" />
     </application>

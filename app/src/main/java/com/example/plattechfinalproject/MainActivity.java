@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Create a new Intent to start the MotivationalPage activity
-                Intent intent = new Intent(MainActivity.this, MotivationalPage.class);
+                Intent intent = new Intent(MainActivity.this, stretching1.class);
                 startActivity(intent);
             }
         });
