@@ -27,11 +27,6 @@
         <activity
             android:name=".stretching1"
             android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <!--        ____________________________________________________________________________________________________       -->
         <activity
@@ -46,8 +41,14 @@
         <activity
             android:name=".hotlinePage"
             android:exported="true"/>
+
         <activity android:name=".LandingPage"
         android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name=".MotivationalPage" />
         <activity android:name=".Stretching2" />
