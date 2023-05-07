@@ -39,7 +39,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="55dp"
             android:fontFamily="@font/helvetica_neue_lt_std_75_bold"
-            android:text="Neutral"
+            android:text="Neutral"/>
 
         <ImageButton
             android:layout_width="97dp"
@@ -73,7 +73,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="55dp"
             android:fontFamily="@font/helvetica_neue_lt_std_75_bold"
-            android:text="Happy"
+            android:text="Happy"/>
     </FrameLayout>
 
     <FrameLayout
@@ -93,7 +93,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="55dp"
             android:fontFamily="@font/helvetica_neue_lt_std_75_bold"
-            android:text="Sad"
+            android:text="Sad"/>
 
         <ImageButton
             android:layout_width="97dp"
