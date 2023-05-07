@@ -26,7 +26,8 @@
             android:exported="false" />
         <activity
             android:name=".stretching1"
-            android:exported="true" />
+            android:exported="true" >
+        </activity>
         <!--        ____________________________________________________________________________________________________       -->
         <activity
             android:name=".memes"
@@ -40,6 +41,7 @@
         <activity
             android:name=".hotlinePage"
             android:exported="true"/>
+
         <activity android:name=".LandingPage"
         android:exported="true">
             <intent-filter>
