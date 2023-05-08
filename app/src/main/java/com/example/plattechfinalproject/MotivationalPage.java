@@ -2,9 +2,11 @@ package com.example.plattechfinalproject;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -46,6 +48,16 @@ public class MotivationalPage extends AppCompatActivity {
                 currentQuoteIndex = (currentQuoteIndex - 1 + quotes.length) % quotes.length;
                 myTextView.setText(quotes[currentQuoteIndex]);
                 Log.d("MyApp", "Previous quote: " + quotes[currentQuoteIndex]);
+            }
+        });
+
+        Button btnContinue2 = findViewById(R.id.btnContinue2);
+        btnContinue2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Create a new Intent to start the MotivationalPage activity
+                Intent intent = new Intent(MotivationalPage.this, stretching1.class);
+                startActivity(intent);
             }
         });
     }
