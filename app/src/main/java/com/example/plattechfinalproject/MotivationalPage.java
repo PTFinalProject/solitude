@@ -56,7 +56,7 @@ public class MotivationalPage extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Create a new Intent to start the MotivationalPage activity
-                Intent intent = new Intent(MotivationalPage.this, stretching1.class);
+                Intent intent = new Intent(MotivationalPage.this, hotlinePage.class);
                 startActivity(intent);
             }
         });

@@ -9,7 +9,7 @@
     tools:context=".journalEntry">
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/journalTitle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -24,7 +24,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextMultiLine"
+        android:id="@+id/journalEntryText"
         android:layout_width="341dp"
         android:layout_height="345dp"
         android:layout_marginStart="30dp"
@@ -45,14 +45,14 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+        app:layout_constraintTop_toBottomOf="@+id/journalTitle" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/contBtnJourn"
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="50dp"
         android:layout_marginEnd="30dp"
         android:backgroundTint="@color/button_background_color"
         android:fontFamily="@font/helvetica_neue_lt_std_75_bold"
@@ -61,24 +61,8 @@
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine"
+        app:layout_constraintTop_toBottomOf="@+id/journalEntryText"
         app:strokeColor="#254125"
         app:strokeWidth="0dp" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="30dp"
-        android:backgroundTint="#00000000"
-        android:fontFamily="@font/helvetica_neue_lt_std_75_bold"
-        android:text="@string/skip_button_text"
-        android:textColor="#618452"
-        android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
