@@ -11,4 +11,5 @@
     <color name="button_text_color">#293829</color>
     <color name="skip_button_color">#8DB99F</color>
     <color name="skip_button_text_color">#000000</color>
+    <color name="sea_green">#40916c</color>
 </resources>
