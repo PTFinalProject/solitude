@@ -7,6 +7,22 @@
     android:background="@drawable/bg1"
     tools:context=".ReadyPage">
 
+    <TextView
+        android:id="@+id/textReady1"
+        android:layout_width="348dp"
+        android:layout_height="67dp"
+        android:fontFamily="@font/helvetica_neue_lt_std_75_bold"
+        android:text="Press the start button to begin meditating"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.197" />
+
     <Button
         android:id="@+id/nextCtnRdyPg"
         android:layout_width="300dp"
@@ -21,7 +37,7 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.403" />
+        app:layout_constraintVertical_bias="0.498" />
 
     <TextView
         android:id="@+id/textQuote1"
@@ -37,6 +53,6 @@
         app:layout_constraintHorizontal_bias="0.578"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.69" />
+        app:layout_constraintVertical_bias="0.778" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
