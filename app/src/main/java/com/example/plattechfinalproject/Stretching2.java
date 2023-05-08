@@ -1,5 +1,6 @@
 package com.example.plattechfinalproject;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.view.View;
@@ -42,5 +43,15 @@ public class Stretching2 extends AppCompatActivity {
             }
         }.start();
 
+        final Button nextBtn = findViewById(R.id.btnContinue);
+
+        nextBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent actChange = new Intent(Stretching2.this, CDBreathingExercise.class);
+
+                startActivity(actChange);
+            }
+        });
     }
 }

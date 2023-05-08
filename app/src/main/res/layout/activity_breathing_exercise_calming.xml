@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg2"
+    android:background="@drawable/bg1"
     tools:context=".breathing_exercise_calming">
 
     <TextView
@@ -13,61 +13,54 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="65dp"
         android:fontFamily="@font/helvetica_neue_lt_std_75_bold"
-        android:text="Breathing Exercise"
+        android:gravity="center"
+        android:text="Calming Breathing Exercise"
         android:textColor="@color/text"
         android:textSize="35sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/breathingImgGuide"
-        android:layout_width="319dp"
-        android:layout_height="314dp"
-        android:layout_marginTop="47dp"
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="216dp"
+        android:background="@drawable/rounded_corner_translucent_green_background"
+        android:src="@drawable/bc2"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titleTxtView"
-        app:srcCompat="@drawable/meme_1" />
+        app:layout_constraintTop_toBottomOf="@+id/titleTxtView" />
 
     <TextView
-        android:id="@+id/guideText"
+        android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="21dp"
-        android:fontFamily="@font/helvetica_neue_lt_std_55_roman"
-        android:text="Exercise"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/helvetica_neue_lt_std_75_bold"
+        android:gravity="center"
+        android:text="Inhale on Enlarge \nExhale on Shrinking"
         android:textColor="@color/text"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gifImageView" />
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/button_background_color"
+        android:fontFamily="@font/helvetica_neue_lt_std_75_bold"
+        android:text="@string/next_button_text"
+        android:textColor="@color/button_text_color"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/breathingImgGuide" />
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
-    <Button
-        android:id="@+id/startBreathingBtn"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="50dp"
-        android:backgroundTint="@color/button_color"
-        android:text="Start"
-        android:textColor="@color/button_text_color"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/guideText" />
-
-    <Button
-        android:id="@+id/nextButton"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="50dp"
-        android:backgroundTint="@color/button_background_color"
-        android:text="Next"
-        android:textColor="@color/button_text_color"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/startBreathingBtn" />
 </androidx.constraintlayout.widget.ConstraintLayout>

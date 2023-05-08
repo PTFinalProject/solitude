@@ -14,7 +14,7 @@ public class end extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_end);
 
-        final Button button = (Button) findViewById(R.id.btnEnd);
+        final Button button = findViewById(R.id.btnEnd);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override

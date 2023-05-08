@@ -9,48 +9,44 @@
 
 
     <Button
-        android:id="@+id/nextBtnHotline2"
+        android:id="@+id/cdNextBtn"
         android:layout_width="226dp"
         android:layout_height="74dp"
         android:layout_marginStart="92dp"
-        android:layout_marginTop="528dp"
+        android:layout_marginTop="15dp"
         android:backgroundTint="@color/button_color"
         android:fontFamily="@font/helvetica_neue_lt_std_75_bold"
         android:text="@string/next_button_text"
         android:textColor="@color/button_text_color"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/titleTxtView3" />
 
     <TextView
         android:id="@+id/titleTxtView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
         android:fontFamily="@font/helvetica_neue_lt_std_75_bold"
         android:text="Inhale and Exhale until relaxed"
         android:textAlignment="center"
         android:textColor="@color/text"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.688" />
+        app:layout_constraintTop_toBottomOf="@+id/gifImageView2" />
 
     <pl.droidsonroids.gif.GifImageView
         android:id="@+id/gifImageView2"
         android:layout_width="456dp"
         android:layout_height="262dp"
-        android:layout_marginTop="166dp"
-        android:layout_marginBottom="303dp"
+        android:layout_marginTop="40dp"
         android:src="@drawable/bc1"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toBottomOf="@+id/titleTxtView2" />
 
     <TextView
         android:id="@+id/titleTxtView2"

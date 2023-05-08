@@ -17,7 +17,7 @@ public class LandingPage extends AppCompatActivity {
         start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(LandingPage.this, stretching1.class);
+                Intent intent = new Intent(LandingPage.this, CheckingInPage.class);
                 startActivity(intent);
             }
         });

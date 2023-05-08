@@ -42,6 +42,7 @@
             android:text="Neutral"/>
 
         <ImageButton
+            android:id="@+id/neutralBtn"
             android:layout_width="97dp"
             android:layout_height="100dp"
             android:layout_gravity="center"
@@ -62,6 +63,7 @@
         app:layout_constraintVertical_bias="0.482">
 
         <ImageButton
+            android:id="@+id/happyBtn"
             android:layout_width="97dp"
             android:layout_height="100dp"
             android:layout_gravity="center"
@@ -98,6 +100,7 @@
             android:text="Sad"/>
 
         <ImageButton
+            android:id="@+id/sadBtn"
             android:layout_width="97dp"
             android:layout_height="100dp"
             android:layout_gravity="center"
@@ -106,6 +109,20 @@
             android:src="@drawable/sademoji" />
 
     </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="308dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/helvetica_neue_lt_std_55_roman"
+        android:text="Press the emoji that best describes what you\'re feeling right now"
+        android:textAlignment="center"
+        android:textColor="@color/text"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frame2" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

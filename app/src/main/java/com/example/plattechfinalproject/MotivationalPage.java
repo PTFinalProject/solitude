@@ -13,7 +13,7 @@ import java.util.Random;
 public class MotivationalPage extends AppCompatActivity {
 
     private int currentQuoteIndex;
-    private String[] quotes = {"“Don’t let yesterday take up too much of today.”",
+    private final String[] quotes = {"“Don’t let yesterday take up too much of today.”",
             "“You learn more from failure than from success. Don’t let it stop you. Failure builds character.”",
             "\"It is better to fail in originality than to succeed in imitation.\"",
             "\"The road to success and the road to failure are almost exactly the same.\"",

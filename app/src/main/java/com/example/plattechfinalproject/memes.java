@@ -14,7 +14,7 @@ public class memes extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_memes);
 
-        final Button button = (Button) findViewById(R.id.btnMeme);
+        final Button button = findViewById(R.id.btnMeme);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -13,7 +13,7 @@ public class hotlinePage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.hotlines_page);
 
-        final Button button = (Button) findViewById(R.id.nextBtnHotline);
+        final Button button = findViewById(R.id.nextBtnHotline);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
