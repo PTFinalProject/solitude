@@ -46,7 +46,7 @@
         android:layout_height="51dp"
         android:fontFamily="@font/helvetica_neue_lt_std_75_bold"
         android:gravity="center"
-        android:text="Child's Pose Stretching"
+        android:text="Child's Pose Stretch"
         android:textColor="#FFFFFF"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"

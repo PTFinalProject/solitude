@@ -6,6 +6,17 @@
     android:layout_height="match_parent"
     android:background="@drawable/tranquilitybg">
 
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="384dp"
+        android:layout_height="418dp"
+        android:alpha="0.7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rounded_bg" />
+
     <Button
         android:id="@+id/btnContinue2"
         android:layout_width="wrap_content"
@@ -43,18 +54,53 @@
 
     <TextView
         android:id="@+id/textQuotes"
-        android:layout_width="366dp"
-        android:layout_height="215dp"
+        android:layout_width="352dp"
+        android:layout_height="207dp"
         android:layout_gravity="center"
         android:layout_marginStart="120dp"
-        android:layout_marginTop="319dp"
         android:layout_marginEnd="120dp"
-        android:fontFamily="@font/ananda_black"
+        android:fontFamily="@font/helvetica_neue_lt_std_55_roman"
         android:gravity="center_horizontal"
         android:text="TextView"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FFFFFF"
         android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.608" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="97dp"
+        android:layout_height="56dp"
+        android:fontFamily="@font/ananda_black"
+        android:text="''"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="326dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/helvetica_neue_lt_std_75_bold"
+        android:gravity="center"
+        android:text="Motivational Quotes"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16000003" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
