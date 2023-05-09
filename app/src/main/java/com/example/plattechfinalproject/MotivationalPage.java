@@ -3,6 +3,7 @@ package com.example.plattechfinalproject;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -14,6 +15,7 @@ import java.util.Random;
 
 public class MotivationalPage extends AppCompatActivity {
 
+    MediaPlayer mediaPlayer;
     private int currentQuoteIndex;
     private final String[] quotes = {"“Don’t let yesterday take up too much of today.”",
             "“You learn more from failure than from success. Don’t let it stop you. Failure builds character.”",
@@ -60,5 +62,22 @@ public class MotivationalPage extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+//      Code for playing audio
+        mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.meditatemusic);
+        mediaPlayer.setLooping(true);
+        mediaPlayer.start();
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        mediaPlayer.pause();
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        mediaPlayer.start();
     }
 }
