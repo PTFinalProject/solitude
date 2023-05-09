@@ -29,7 +29,7 @@ public class CDBreathingExercise extends AppCompatActivity {
         });
 
 //        Code for playing audio
-        mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.backgroundsound1);
+        mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.meditatemusic);
         mediaPlayer.setLooping(true);
         mediaPlayer.start();
     }

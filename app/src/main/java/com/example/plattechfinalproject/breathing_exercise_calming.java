@@ -29,7 +29,7 @@ public class breathing_exercise_calming extends AppCompatActivity {
             }
         });
 
-        mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.backgroundsound1);
+        mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.meditatemusic);
         mediaPlayer.setLooping(true);
         mediaPlayer.start();
     }
