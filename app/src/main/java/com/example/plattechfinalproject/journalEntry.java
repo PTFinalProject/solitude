@@ -26,7 +26,7 @@ public class journalEntry extends AppCompatActivity {
         contButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent actChange =new Intent(journalEntry.this, breathing_exercise_calming.class);
+                Intent actChange =new Intent(journalEntry.this, ReadyPage.class);
 
                 startActivity(actChange);
             }
