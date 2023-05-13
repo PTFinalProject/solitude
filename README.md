@@ -1,7 +1,10 @@
 # tranquility
-- Chat muna kayo sa gc bago kayo magcommit kasi baka magoverlap at magkaroon ng undesired changes.
-- Sana matapos natin toh AHAHAHAHAH
-- Goodluck sa atin lmao
+# Link for GitHub Repository: https://github.com/PTFinalProject/tranquility
+# Members:
+## Lim, Bruce Wayne
+## Oren, Raymond Jhon
+## Sales, Nichole Criselda
+## Yu, Anshun Jneil
 __________________________________________________________________________________________________________________________________________________
 ## Guide in Editing this application:
 ### 1. First is make sure that your git is initialized in the right directory (folder). You can do this by typing CD "C:/Your/Chosen/Directory/Here"
